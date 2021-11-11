@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PharmEasy: Online Pharmacy & Medical Store in India | 50 Lakhs+ Customers.</title>
+    <link rel="shortcut icon" href="data:image/jpeg;base64,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" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+     <header>
+         <div id="navbar">
+        <div id="sub1">
+            <div>
+                <img src="https://assets.pharmeasy.in/web-assets/dist/fca22bc9.png" alt="">
+            </div>
+            <div>
+                <p>Select Pincode</p>
+                <img src="https://cdn-icons-png.flaticon.com/512/60/60995.png" width="14px" height="14px">
+                <p>|</p>
+                <input type="text" placeholder="Search for Medicines / Health Products">
+                <div><img src="https://t3.ftcdn.net/jpg/01/27/72/28/240_F_127722883_DD4Sp3V30YxvYut3sRsaJqv7TKloEuyH.jpg" alt=""></div> 
+            </div>
+            <div>
+                <div>Don't have a Prescription?</div>
+                <div>
+                    <select id="">
+                        <option value="">Get Started</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div id="sub2">
+            <div>Order Medicines</div>
+            <div>Healthcare Products</div>
+            <div>Diagnostic Tests</div>
+            <div></div>
+            <div>
+                <img src="https://assets.pharmeasy.in/web-assets/dist/275c07e1.svg" height="25px" width="25px">
+                <span><p>Offers</p></span>
+            </div>
+            <div id="loging">
+                <img src="https://assets.pharmeasy.in/web-assets/dist/5eb42971.svg" height="25px" width="25px">
+                <span><p>Login / Signup</p></span>
+            </div>
+            <div>
+                <img src="https://assets.pharmeasy.in/web-assets/dist/21b0b5ba.svg" height="25px" width="25px">
+                <span><p>Cart</p></span>
+            </div>
+        </div>
+
+    </div>
+</header>
+
+<div class="slideWrapper">
+</div>
+<div class="pre-btn"><img src="https://cdn-icons-png.flaticon.com/128/318/318477.png" width="25px" height="25px"></div>
+    
+<div class="slide-container">
+   
+</div>
+<div class="next-btn"><img src="https://cdn-icons-png.flaticon.com/512/318/318476.png" width="25px" height="25px"></div>
+
+<div class="navigation-dots">
+    <div class="single-dot"></div>
+    <div class="single-dot"></div>
+    <div class="single-dot active"></div>
+    <div class="single-dot"></div>
+    <div class="single-dot"></div>
+</div>
+
+    <div id="nabBottom">
+        
+        <div class="box1">
+            <div class="box1Items">
+                <div class="tag">
+                    FLAT 15% OFF</div>
+                <div class="upper">Order Medicines</div>
+                <div class="lower">
+                    <button>Order Now</button>
+                </div>
+            </div>
+            <div class="box1Items">
+                <div class="tag">
+                    FLAT 60% OFF</div>
+                <div class="upper">Healthcare Products</div>
+                <div class="lower">
+                    <button>Order Now</button>
+                </div>
+            </div>
+            <div class="box1Items">
+                <div class="tag">
+                    FLAT 70% OFF</div>
+                <div class="upper">Lab Tests</div>
+                <div class="lower">
+                    <button>Book Now</button>
+                </div>
+            </div>
+        </div>
+           
+        <div class="box2">
+                <div class="box2Items">
+                    <img src="https://assets.pharmeasy.in/web-assets/dist/e3db129c.png" alt="">
+                </div>
+                <div class="box2Items"><span>Save flat <strong>5 % </strong>on medicines & enjoy FREE delivery with PLUS membership</span></div>
+                <div class="box2Items">
+                    <img src="https://assets.pharmeasy.in/web-assets/dist/b20b0932.png" alt="">
+                </div>
+        </div>
+
+        
+
+        <div class="box3">
+            <div class="rightmark"><img src="https://cdn-icons-png.flaticon.com/128/158/158772.png" alt=""></div>
+            <div class="box3Items">
+                <img src="https://assets.pharmeasy.in/web-assets/dist/0ad2d80a.png" alt="">
+            </div>
+            <div class="box3Items">
+                <img src="https://assets.pharmeasy.in/web-assets/dist/6e630ccf.png" alt="">
+            </div>
+            <div class="box3Items">
+                  <img src="https://assets.pharmeasy.in/web-assets/dist/c9bd8df2.png" alt="">
+            </div>
+            <div class="box3Items">
+                  <img src="https://assets.pharmeasy.in/web-assets/dist/748e0da8.png" alt="">
+            </div>
+            <div class="box3Items">
+                  <img src="https://assets.pharmeasy.in/web-assets/dist/aada0d0d.png" alt="">
+            </div>
+            <div class="box3Items">
+                  <img src="https://assets.pharmeasy.in/web-assets/dist/091811c4.png" alt="">
+            </div>
+            <div class="rightmark"><img src="https://cdn-icons-png.flaticon.com/128/158/158771.png" alt=""></div>
+        </div>
+       
+        <div class="box4">
+            <div class="box4Items">
+                <img src="https://assets.pharmeasy.in/web-assets/dist/67890676.svg" alt="">
+              <h3>Offers Just For You</h3>
+            </div>
+            <div class="box4Items">
+                <h3> See All Offers</h3>
+                <img src="https://cdn-icons-png.flaticon.com/128/158/158772.png" alt="">
+                <img src="https://cdn-icons-png.flaticon.com/128/152/152352.png" alt="">
+            </div>
+        </div>
+
+        <div class="box5">
+            <div class="box5Items">
+                <img src="https://cms-contents.pharmeasy.in/offer/958a56efb38-LOGO.jpg?dim=60x0&dpr=1&q=100" alt="">
+                <div>
+                    <div class="txtDiv">
+                        <div><strong>Flat 22% off + 10%
+                            cashback</strong></div>
+                        <div>Code: <strong>PUT22</strong></div>
+                    </div>
+                </div>
+            </div>
+            <div class="box5Items">
+                <img src="https://cms-contents.pharmeasy.in/offer/e11270f3e3f-paytmcashbackoptimized.png?dim=60x0&dpr=1&q=100" alt="">
+                <div>
+                    <div class="txtDiv">
+                        <div><strong>Get up to Rs.500 Paytm
+                            Cashback via Paytm...
+                        </strong></div>
+                        <div>Code: <strong>PUT22</strong></div>
+                    </div>
+                </div>
+            </div>
+            <div class="box5Items">
+                <img src="https://cms-contents.pharmeasy.in/offer/958a56efb38-LOGO.jpg?dim=60x0&dpr=1&q=100" alt="">
+                <div>
+                    <div class="txtDiv">
+                        <div><strong>Flat 22% off + 10%
+                            cashback</strong></div>
+                        <div>Code: <strong>Not required</strong></div>
+                    </div>
+                </div>
+            </div>
+            <div class="box5Items">
+                <img src="https://cms-contents.pharmeasy.in/offer/2ee0fa15254-HDFClogosquare.jpg?dim=60x0&dpr=1&q=100" alt="">
+                <div>
+                    <div class="txtDiv">
+                        <div><strong>Flat Rs.150 Instant discount on select...</strong></div>
+                        <div>Code: <strong>FREEDB</strong></div>
+                    </div>
+                </div>
+            </div>
+            <div class="box5Items">
+                <img src="https://cms-contents.pharmeasy.in/offer/958a56efb38-LOGO.jpg?dim=60x0&dpr=1&q=100" alt="">
+                <div>
+                    <div class="txtDiv">
+                        <div><strong>Flat 22% off + 10%
+                            cashback</strong></div>
+                        <div>Code: <strong>Not required</strong></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+      <div class="box6">
+       <div class="box6Item">
+           <div class="box6Flex">
+           <h2>Frequently Booked Lab Tests</h2>
+           <div><span><img src="https://cdn-icons-png.flaticon.com/128/158/158772.png" alt=""></span>
+        <span><img src="https://cdn-icons-png.flaticon.com/128/158/158771.png" alt=""></span></div>
+        </div>
+           <div class="inner">
+               <div class="innerItems">
+                   <ul>
+                       <li><img src="https://static.thenounproject.com/png/3849525-200.png" width="18px"
+                        height="18px"> 100+ Certified Labs</li>
+                       <li><img src="https://static.thenounproject.com/png/3801457-200.png"width="18px"
+                        height="18px">
+                           10000 Happy Customers</li>
+                       <li><img src="https://cdn-icons-png.flaticon.com/128/1184/1184072.png"width="18px"
+                        height="18px">
+                        Free Sample Collection</li>
+                       <li><img src="https://cdn-icons-png.flaticon.com/128/3286/3286169.png"width="18px"
+                        height="18px">
+                        Accurate Reports</li>
+                   </ul>
+               </div>
+               <div class="innerItems white">
+                <div class="rigthTags">
+                    <span>%0ट ƎVAƧ</span>
+                </div>
+                <div class="mid">
+                    <img src="https://assets.pharmeasy.in/web-assets/dist/909edb3f.svg" alt="">
+                    <p>CBC (Compelete Blood Count)</p>
+                    <p>Available at 3 certifiled labs</p>
+                </div>
+                <div class="bottom">
+                    <p>Rs. 199 Onwards</p>
+                    <select name="" id="select">
+                    <option value="">Book Now</option>
+                </select>
+                </div>
+               </div>
+               <div class="innerItems white">
+                <div class="rigthTags">
+                    <span>%0ट ƎVAƧ</span>
+                </div>
+                <div class="mid">
+                    <img src="https://assets.pharmeasy.in/web-assets/dist/909edb3f.svg" alt="">
+                    <p>CBC (Compelete Blood Count)</p>
+                    <p>Available at 3 certifiled labs</p>
+                </div>
+                <div class="bottom">
+                    <p>Rs. 199 Onwards</p>
+                    <select name="" id="select">
+                    <option value="">Book Now</option>
+                </select>
+                </div>
+               </div>
+               <div  class="innerItems white">
+                <div class="rigthTags">
+                    <span>%0ट ƎVAƧ</span>
+                </div>
+                <div class="mid">
+                    <img src="https://assets.pharmeasy.in/web-assets/dist/909edb3f.svg" alt="">
+                    <p>CBC (Compelete Blood Count)</p>
+                    <p>Available at 3 certifiled labs</p>
+                </div>
+                <div class="bottom">
+                    <p>Rs. 199 Onwards</p>
+                    <select name="" id="select">
+                    <option value="">Book Now</option>
+                </select>
+                </div>
+               </div>
+           </div>
+       </div>
+      </div>
+
+      <div class="box7">
+        <div class="box6Flex">
+            <h2>Featured Brands</h2>
+            <div><span><img src="https://cdn-icons-png.flaticon.com/128/158/158772.png" alt=""></span>
+         <span><img src="https://cdn-icons-png.flaticon.com/128/158/158771.png" alt=""></span></div>
+         </div>
+         <div class="box7Flex">
+             <div class="box7FlexItems">
+                 <img src="https://cms-contents.pharmeasy.in/carousel_item/a2ec4d896ba-Web_Featured-Vicks.jpg?dim=146x0&dpr=1&q=100" alt="">
+                </div>
+                <div class="box7FlexItems">
+                     <img src="https://cms-contents.pharmeasy.in/carousel_item/487644e2f83-Nivea_web.jpg?dim=146x0&dpr=1&q=100" alt="">
+                </div>
+                <div class="box7FlexItems">
+                     <img src="https://cms-contents.pharmeasy.in/carousel_item/48a0aec195d-Featured-web_Protinex.jpg?dim=146x0&dpr=1&q=100" alt="">
+                </div>
+                <div class="box7FlexItems">
+                     <img src="https://cms-contents.pharmeasy.in/carousel_item/c572570b5ce-Liveasy.jpg?dim=146x0&dpr=1&q=100" alt="">
+                </div>
+                <div class="box7FlexItems">
+                     <img src="https://cms-contents.pharmeasy.in/carousel_item/fd17e547883-Horlicks_web.jpg?dim=146x0&dpr=1&q=100" alt="">
+                </div>
+                <div class="box7FlexItems">
+                     <img src="https://cms-contents.pharmeasy.in/carousel_item/f57fee62551-Accuchek.jpg?dim=146x0&dpr=1&q=100" alt="">
+                </div>
+                <div class="box7FlexItems">
+                    <img src="https://cms-contents.pharmeasy.in/carousel_item/2d987111a15-Featured-banner_Revital.png?dim=146x0&dpr=1&q=100" alt="">
+               </div>
+               <div class="box7FlexItems">
+                <img src="https://cms-contents.pharmeasy.in/carousel_item/e2413b4b989-Volini.jpg?dim=146x0&dpr=1&q=100" alt="">
+           </div>
+            </div>
+        </div>
+
+        <div class="box8">
+            <img src="https://cdn01.pharmeasy.in/dam/banner/banner/c5ae1494075-DesktopTrust.png?dim=1024x100&dpr=1&q=100" alt="">
+        </div>
+
+        <box class="box9">
+            <div class="box6Flex">
+                <h2>Recommended For You</h2>
+                <div><span><img src="https://cdn-icons-png.flaticon.com/128/158/158772.png" alt=""></span>
+             <span><img src="https://cdn-icons-png.flaticon.com/128/158/158771.png" alt=""></span></div>
+             </div>
+        </box>
+
+        <div id="box10"></div>
+
+        <div class="box11">
+            <h2>Top Categories</h2>
+            <h2>View All</h2>
+        </div>
+
+        <div class="box12">
+            <div class="box12Items">
+                <img src="https://cms-contents.pharmeasy.in/homepage_top_categories_images/05345cd0e54-Devices.jpg" alt="">
+            </div>
+            <div class="box12Items">
+                <img src="https://cms-contents.pharmeasy.in/homepage_top_categories_images/eb45762cff0-Nutrition-drinks-min.jpg" alt="">
+            </div>
+            <div class="box12Items">
+                <img src="https://cms-contents.pharmeasy.in/homepage_top_categories_images/12223230e1a-Ayurvedic-care.jpg" alt="">
+            </div>
+            <div class="box12Items">
+                <img src="https://cms-contents.pharmeasy.in/homepage_top_categories_images/2ddc1748b99-Baby-Mom-care.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="box13">
+            <div class="divFir">
+                <div class="divFirItmes">
+                    <img src="https://assets.pharmeasy.in/web-assets/dist/cc9b301d.svg" alt="">
+                    <h2>
+                        Deals of the Day</h2>
+                    <p id="timer">555555555--</p>    
+                </div>
+                <div class="divFirItmes">
+                    <h2>View All</h2>
+                    <img src="https://cdn-icons-png.flaticon.com/128/158/158772.png" alt="">
+                    <img src="https://cdn-icons-png.flaticon.com/128/158/158771.png" alt="">
+                </div>
+            </div>
+
+            <div class="divlas">
+                <div class="divlasItems">
+                    <div class="divlasItemstop">
+                        <div class="tagger">20% OFF</div>
+                        <img src="https://cdn01.pharmeasy.in/dam/products_otc/F66413/zandu-haldi-drops-immunity-building-32ml-20ml-12-ml-free-1-1632778563.jpg?dim=224x0&dpr=0.6666666865348816&q=100" alt="">
+                    </div>
+                    <h2>Zandu Haldi Drops Immunity Building - 32ml </h2>
+                    <h3>MRP ₹190</h3>
+                    <h3>₹152</h3>
+                </div>
+                
+                <div class="divlasItems">
+                    <div class="divlasItemstop">
+                        <div class="tagger">20% OFF</div>
+                        <img src="https://cdn01.pharmeasy.in/dam/products_otc/W83028/cetaphil-bhr-brightness-reveal-creamy-cleanser-100-gm-2-1635588864.jpg?dim=224x0&dpr=0.8999999761581421&q=100" alt="">
+                    </div>
+                    <h2>Zandu Haldi Drops Immunity Building - 32ml </h2>
+                    <h3>MRP ₹190</h3>
+                    <h3>₹152</h3>
+                </div>
+                <div class="divlasItems">
+                    <div class="divlasItemstop">
+                        <div class="tagger">20% OFF</div>
+                        <img src="https://cdn01.pharmeasy.in/dam/products_otc/W12884/liveasy-essentials-womens-diabetic-orthopedic-slippers-red-size-uk-6-us-9-6.1-1632778709.jpg?dim=224x0&dpr=0.8999999761581421&q=100" alt="">
+                    </div>
+                    <h2>Zandu Haldi Drops Immunity Building - 32ml </h2>
+                    <h3>MRP ₹190</h3>
+                    <h3>₹152</h3>
+                </div>
+
+                <div class="divlasItems">
+                    <div class="divlasItemstop">
+                        <div class="tagger">20% OFF</div>
+                        <img src="https://cdn01.pharmeasy.in/dam/products_otc/L80475/volini-pain-relief-spray-60-gm-2-1632778321.jpg?dim=224x0&dpr=0.8999999761581421&q=100" alt="">
+                    </div>
+                    <h2>Zandu Haldi Drops Immunity Building - 32ml </h2>
+                    <h3>MRP ₹190</h3>
+                    <h3>₹152</h3>
+                </div>
+
+                <div class="divlasItems">
+                    <div class="divlasItemstop">
+                        <div class="tagger">20% OFF</div>
+                        <img src="https://cdn01.pharmeasy.in/dam/products_otc/S43740/nivea-shower-gel-water-lily-oil-body-wash-250ml-2-1632780274.jpg?dim=224x0&dpr=0.8999999761581421&q=100" alt="">
+                    </div>
+                    <h2>Zandu Haldi Drops Immunity Building - 32ml </h2>
+                    <h3>MRP ₹190</h3>
+                    <h3>₹152</h3>
+                </div>
+        </div>
+
+       <div class="box14">
+           <div class="box14top">
+               <h2>Health Articles</h2>
+               <div class="box14topRight">
+                   <h2>
+                    See All</h2>
+                   <span><img src="https://cdn-icons-png.flaticon.com/128/158/158772.png" alt=""></span>
+                   <span><img src="https://cdn-icons-png.flaticon.com/128/158/158771.png" alt=""></span>
+               </div>
+           </div>
+
+           <div class="box14bottom">
+               <div class="box14bottomItmes">
+                   <img src="https://blog-images.pharmeasy.in/2021/11/01144720/BLOG-01.jpg?dim=0x230&dpr=0.8999999761581421&q=100" alt="">
+                   <h2>Can Stammering Disorder In Children Be Corrected?</h2>
+                   <p>The development of speech is an important aspect of a child’s growth. Many children face problems with the pronunciation of</p>
+                   <select name="" id="">
+                       <option value="">
+                           Read More
+                       </option>
+                   </select>
+               </div>
+
+               <div class="box14bottomItmes">
+                <img src="https://blog-images.pharmeasy.in/2021/10/30183520/BLOG-04-6.jpg?dim=0x230&dpr=0.8999999761581421&q=100" alt="">
+                <h2>Diet or Excercise - Which one should I Focus On For A..</h2>
+                <p>Commitment is the internal recruitement to achive healthy weight loss. The aspect of maintaning a healthy diet is also..</p>
+                <select name="" id="">
+                    <option value="">
+                        Read More
+                    </option>
+                </select>
+               </div>
+
+               <div class="box14bottomItmes">
+                <img src="https://blog-images.pharmeasy.in/2021/10/28175525/BLOG-01-10.jpg?dim=0x230&dpr=0.8999999761581421&q=100" alt="">
+                <h2>Love Fast Foods? They Could Bring On A Health Distat..</h2>
+                <p>COVID 19 has not been easing off of health scares and the anxiety born out of constantly worrying about the safety of your..</p>
+                <select name="" id="">
+                    <option value="">
+                        Read More
+                    </option>
+                </select>
+               </div>
+            </div>
+            <div class="box15">
+                <div class="box15Items">
+                    <img src="https://assets.pharmeasy.in/web-assets/dist/4d2f7c48.svg" alt="">
+                    <h1>50 Lakh +</h1>
+                    <h5>Families Served</h5>
+                </div>
+                <div class="box15Items">
+                    <img src="https://assets.pharmeasy.in/web-assets/dist/92c372bb.svg" alt="">
+                    <h1>1.5 Crore +</h1>
+                    <h5>Orders Delivered</h5>
+                </div>
+                <div class="box15Items">
+                    <img src="https://assets.pharmeasy.in/web-assets/dist/f2d557d3.svg" alt="">
+                    <h1>22000 +</h1>
+                    <h5>Pincodes Served</h5>
+                </div>
+                <div class="box15Items">
+                    <img src="https://assets.pharmeasy.in/web-assets/dist/773ae9c5.svg" alt="">
+                    <h1>1.5 Lakh +</h1>
+                    <h5>Medicines Available</h5>
+                </div>
+            </div>
+     
+         <div class="box16">
+             <div class="box16top">
+                <h2>What our customers have to say</h2>
+                <div><img src="https://cdn-icons-png.flaticon.com/128/158/158772.png" alt="">
+                <img src="https://cdn-icons-png.flaticon.com/128/158/158771.png" alt="">
+                </div>
+         </div>
+
+         <div class="box16bottom">
+             <div class="box16bottomItems">
+                 <h3>Darpan Dholakia</h3>
+                 <h4>April 23,2020</h4>
+
+                 <div class="box16bottomItemsCon">
+                   <img src="https://assets.pharmeasy.in/web-assets/dist/d29d41d8.svg" alt=""> 
+                   <p>I made the decision to purchase medications for my brother, who was suffering from liver disease. I was truly concerned about whether or not the medicine would arrive on time. PharmEasy, thankfully, provided the pharmaceutical order on schedule.</p> 
+                 </div>
+             </div>
+             <div class="box16bottomItems">
+                <h3>Lipi Chaudhari</h3>
+                <h4>April 23,2020</h4>
+                <div class="box16bottomItemsCon">
+                    <img src="https://assets.pharmeasy.in/web-assets/dist/d29d41d8.svg" alt=""> 
+                    <p>I made the decision to purchase medications for my brother, who was suffering from liver disease. I was truly concerned about whether or not the medicine would arrive on time. PharmEasy, thankfully, provided the pharmaceutical order on schedule.</p> 
+                  </div>
+             </div>
+             <div class="box16bottomItems">
+                <h3>Thirthankar Das</h3>
+                <h4>April 23,2020</h4>
+                <div class="box16bottomItemsCon">
+                    <img src="https://assets.pharmeasy.in/web-assets/dist/d29d41d8.svg" alt=""> 
+                    <p>I made the decision to purchase medications for my brother, who was suffering from liver disease. I was truly concerned about whether or not the medicine would arrive on time. PharmEasy, thankfully, provided the pharmaceutical order on schedule.</p> 
+                  </div>
+             </div>
+             <div class="box16bottomItems">
+                <h3>Debanjan Roy</h3>
+                <h4>April 23,2020</h4>
+                <div class="box16bottomItemsCon">
+                    <img src="https://assets.pharmeasy.in/web-assets/dist/d29d41d8.svg" alt=""> 
+                    <p>I made the decision to purchase medications for my brother, who was suffering from liver disease. I was truly concerned about whether or not the medicine would arrive on time. PharmEasy, thankfully, provided the pharmaceutical order on schedule.</p> 
+                  </div>
+             </div>
+         </div>
+        </div>
+
+        <div class="box17">
+            <div class="box17Left">
+            <div class="box17Top"><h2>Simplifying Healthcare, Impacting Lives</h2></div>
+            <h2>Download the App for free</h2>
+            <div class="box17Bot">
+                <img src="https://assets.pharmeasy.in/web-assets/dist/4e4f1cab.png" alt="">
+                <img src="https://assets.pharmeasy.in/web-assets/dist/83095c03.png" alt="">
+            </div>
+        </div>
+
+        <div class="box17right">
+            <img src="https://assets.pharmeasy.in/web-assets/dist/f67d7f64.jpg" alt="">
+        </div>
+    </div>
+
+         <div class="box18">
+            <div class="box18Div1">
+                <p><strong style="font-size:15px">Top-Selling Healthcare Products:</strong>Accu-Chek Active - 100 Strips |
+                    Supradyn Multivitamin Tablets |
+                    DR Morepen BG 03 - 50 Strips |
+                    Dettol Antiseptic Liquid |
+                    Ensure Diabetes Care | Vanilla Sugar Free Jar | <br>
+                    Dettol Instant Hand Sanitizer | 
+                    Everherb Shilajit |
+                    Softovac SF Powder |
+                    Pediasure Premium |Chocolate Refill</p>
+            </div>
+
+            <div class="box18Div1">
+                <p><strong style="font-size:15px">Top-Selling Medicines:</strong>Dolovera Gel  |  
+                    Neurobion Forte  | 
+                    Chymoral Forte  |
+                    Crocin Advance  |
+                    Soframycin  |
+                    Dexorange  |
+                    Becadexamin  |
+                    Folvite  |
+                    Livogen  |
+                    Becosules  |
+                    Fourderm  |
+                    Nurokind Plus  |
+                    Burnol  |
+                    Crocin 650  |
+                    Mintop 5  |
+                    Thrombophob  |
+                    Evion 600</p>
+            </div>
+
+            <div class="box18Div1">
+                <p><strong style="font-size:13px">Top-Searched Healthcare Brands:
+                </strong>
+                Accu Chek  |
+                Dettol  |
+                Horlicks  |
+                Protinex  |
+                Supradyn  |
+                Ensure  |
+                Indulekha  |
+                Zandu  |
+                Pediasure  |
+                Dr Morepen  | </p>
+            </div>
+
+            <div class="box18Div1">
+                <p><strong style="font-size:13px">COVID-19 Preventatives:
+                </strong>
+                N95 Masks  | 
+Hand Sanitizers  |
+Hand Gloves, Disinfectants, Thermometers & more!</p>
+</div>
+<h2>Your One-Stop Online Pharmacy - PharmEasy</h2>
+<h3>We've got India Covered!</h3>
+
+<p>We now deliver in 1000+ cities and towns across 22000+ pin codes. We thereby cover every nook and corner of the country! The major cities in which we deliver include Mumbai, Kolkata, Delhi, Bengaluru, Ahmedabad, Hyderabad, Chennai, Thane, Howrah, Pune, Gurgaon, Navi Mumbai, Jaipur, Noida, Lucknow, Ghaziabad & Vadodara.</p>
+
+<h3>Say Goodbye to All Your Healthcare Worries With PharmEasy!</h3>
+
+<p>PharmEasy is here to help you take it easy! We are amongst one of India's top online pharmacy and medical care platforms. It enables you to order pharmaceutical and healthcare products online by connecting you to registered retail pharmacies and get them delivered to your home. We are an online medical store, making your purchase easy, simple, and affordable!</p>
+
+<h3>How Are We Making Lives Simpler With Our Online Medical Store?</h3>
+
+<p>Our doorstep delivery service is available in PAN-India across top cities like Bangalore, Delhi, Mumbai, Kolkata, Hyderabad, Gurgaon, Noida, Pune, etc. Our online medical store also allows you to choose from 1 lakh+ products incl. OTC products and medical equipment. PharmEasy is a one-stop online medical platform where you can also book diagnostic tests including blood tests, full-body checkups, and other preventive health check-ups at an affordable cost, right from the comfort of your home. We have partnered with trusted & certified labs that arrange for a sample pick-up from the convenience of your home. They also provide you with timely reports.</p>
+
+<h3>Why Are We The Most Preferred Online Pharmacy?</h3>
+
+<p>Lucrative offers on our platform allow you to make payment online and via various payment wallets at a discounted price. Alternatively, you can also choose to pay cash on delivery as we deliver the products at your doorstep. We cater to all your pharmaceutical needs and also make ordering medicines online a hassle-free experience for you. We connect you only with registered retail pharmacies & certified diagnostic labs. We ensure that healthcare is affordable to all and make the process of ordering online simple.</p>
+
+<h3>Sit Back & Relax While You Get Your Essentials Delivered Every Month!</h3>
+
+<p>It’s tough to remember to refill every month, especially in the case of chronic diseases. PharmEasy’s subscription service not only ensures that you are reminded of your refills but also makes sure that you are never out on your medical essentials. You will get a reminder every month and your order will be delivered at your convenience!</p>
+
+<h3>Access medical and health information:</h3>
+
+<p>PharmEasy delivers reliable and accurate medical information that has been carefully written, vetted and validated by our health experts. Our specialists curate high-quality and most reliable literature about medicines, illnesses, lab tests, Ayurvedic and over the counter health products.</p>
+
+<h3>We Believe in ‘Simplifying Healthcare, Impacting Lives!’
+</h3>
+         </div>
+
+         <footer>
+            <div class="footDiv">
+                <div class="footItems">
+                    <ul>
+                        <li><strong>Company</strong></li>
+                        <li>About Us</li>
+                        <li>Careers</li>
+                        <li>Blog</li>
+                        <li>Partner with PharmEasy</li>
+                        <li>Sell at PharmEasy</li>
+                    </ul>
+
+                    <ul>
+                        <li><strong>Our Services</strong></li>
+                        <li>Order Medicine</li>
+                        <li>Healthcare Products</li>
+                        <li>Diagnostic Tests
+                            Featured Categories</li>
+                    </ul>
+                </div>
+                <div class="footItems">
+                    <ul>
+                        <li><strong>Featured Categories</strong></li>
+                        <li>Covid Essentials</li>
+                        <li>Devices</li>
+                        <li>Nutrition & Fitness Supplements</li>
+                        <li>Personal Care</li>
+                        <li>Ayurvedic Care</li>
+                        <li>Baby & Mom Care</li>
+                        <li>Skin Care</li>
+                        <li>Diabetic Care</li>
+                        <li>Sexual Wellness</li>
+                        <li>Short Term Ailments</li>
+                        <li>Lifestyle Ailments</li>
+                        <li>Home Care</li>
+                        <li>Women Care</li>
+                        <li>Health Food and Drinks</li>
+                        <li>Ortho Care</li>
+                        <li>Pet Care</li>
+                    </ul>
+                </div>
+                <div class="footItems">
+                    <ul>
+                        <li><strong>Need Help</strong></li>
+                        <li>Browse All Medicines</li>
+                        <li>Browse All Molecules</li>
+                        <li>FAQs</li>
+                    </ul>
+
+                    <ul>
+                        <li><strong>Policy Info</strong></li>
+                        <li>Editorial Policy</li>
+                        <li>Privacy Policy</li>
+                        <li>Vulnerability Disclosure Policy</li>
+                        <li>Terms and Conditions</li>
+                        <li>Customer Support Policy</li>
+                        <li>Return Policy</li>
+                    </ul>
+                </div>
+                <div class="footItems laster">
+                    <h2>FOLLOW US</h2>
+                     <div class="logo">
+                         <div class="logs">
+                             <img src="https://cdn-icons-png.flaticon.com/128/1384/1384015.png" alt="">
+                         </div>
+                         <div class="logs">
+                             <img src="https://cdn-icons.flaticon.com/png/128/4401/premium/4401403.png?token=exp=1636563792~hmac=a7de2e2fbd2f9312d389c50c36d04ea8" alt="">
+                         </div>
+                         <div class="logs">
+                             <img src="https://cdn-icons-png.flaticon.com/128/1384/1384012.png" alt="">
+                         </div>
+                         <div class="logs"><img src="https://cdn-icons.flaticon.com/png/128/2168/premium/2168336.png?token=exp=1636563792~hmac=ca23e91502013dcba4fb81bece79c143" alt=""></div>
+                     </div>
+                </div>
+            </div>
+
+            <h3 class="end">Our Payment Partners</h3>
+            <div class="divEnd">
+            <div class="payment">
+                <div class="partners">
+                    <img src="https://assets.pharmeasy.in/web-assets/dist/af0c6812.svg" alt="">
+                </div>
+                <div class="partners">
+                    <img src="https://assets.pharmeasy.in/web-assets/dist/0e010044.svg" alt="">
+                </div>
+                <div class="partners">
+                    <img src="https://assets.pharmeasy.in/web-assets/dist/1066bb1f.svg" alt="">
+                </div>
+                <div class="https://assets.pharmeasy.in/web-assets/dist/3a1a533d.svg" alt="">
+                </div>
+                <div class="partners">
+                     <img src="https://assets.pharmeasy.in/web-assets/dist/3a1a533d.svg" alt="">
+                </div>
+                <div class="partners">
+                     <img src="https://assets.pharmeasy.in/web-assets/dist/fbea1701.svg" alt="">
+                </div>
+                <div class="partners">
+                     <img src="https://assets.pharmeasy.in/web-assets/dist/4733a49d.svg" alt="">
+                </div>
+                <div class="partners">
+                     <img src="https://assets.pharmeasy.in/web-assets/dist/b278e536.svg" alt="">
+                </div>
+                <div class="partners">
+                     <img src="https://assets.pharmeasy.in/web-assets/dist/0aca2077.svg" alt="">
+                </div>
+                <div class="partners">
+                     <img src="https://assets.pharmeasy.in/web-assets/dist/44a51ca5.svg" alt="">
+                </div>
+                <div class="partners">
+                     <img src="https://assets.pharmeasy.in/web-assets/dist/d058b00d.svg" alt="">
+                </div>
+                <div class="partners">
+                    <img src="https://assets.pharmeasy.in/web-assets/dist/e9445364.svg" alt="">
+               </div>
+               <div class="partners">
+                <img src="https://assets.pharmeasy.in/web-assets/dist/6e09c713.svg" alt="">
+           </div>
+        </div>
+        
+        <div class="copyRight">&COPY 2021 PharmEasy. All Rights Reserved</div>
+    </div>
+        </footer>
+
+        </div>
+</body>
+</html>
+
+<script src="home.js"></script>

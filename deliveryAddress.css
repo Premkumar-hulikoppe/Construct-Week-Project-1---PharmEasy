@@ -1,0 +1,108 @@
+*{
+    color: #4f585e;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#container{
+    width: 35%;
+    height: 750px;
+    border: 1px solid none;
+    margin: 25px auto;
+    padding-left: 25px;
+    padding-right: 10px;
+    border-radius: 6px;
+}
+h1{
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.stag{
+    width: 100%;
+    height: 40px;
+    border-radius: 6px;
+     padding: 10px;
+     background-color: #e9f9ff;
+     display: flex;
+     margin-bottom: 20px;
+    }
+    .stag p{
+        margin: 0;
+        font-size: 13px;
+        margin-left: 10px;
+        font-family: sans-serif;
+        width: 73%;
+    }
+    .sections{
+        width: 100%;
+        height: 75px;
+        border: 1px solid none;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .sections p{
+        margin: 0;
+        margin-bottom: 5px;
+        font-size: 13px;
+    }
+    .sections p:nth-of-type(1){
+        margin-bottom: 12px;
+    }
+    .sections p:nth-of-type(2){
+        font-size: 11px;
+    }
+    .sections input{
+        width: 90%;
+        height: 30px;
+        margin: 0;
+        margin-bottom: 5px;
+    }
+    .addresstype{
+        width: 90%;
+        height: 25px;
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid none;
+    }
+    .types{
+        width: 32%;
+        height: 100%;
+        border: 1px solid none;
+        display: flex;
+    }
+    .types .inners:nth-child(1){
+        width: 30%;
+        height: 100%;
+    }
+    .inners{
+        width: 35%;
+        height: 100%;
+        border: 1px solid none;
+    }
+    .inners input{
+      width: 80%;
+      height: 80%;
+    }
+    .inners p{
+        margin-top: 3px;
+    }
+
+    button{
+        width: 75%;
+        height: 35px;
+        margin:0 auto;
+        border-radius: 6px;
+        color: white;
+        background-color: #4f585e;
+        border: none;
+        font-size: 15px;
+        font-weight: 600;
+        text-align: center;
+        margin-left: 10%;
+    }
+    #pin{
+        width: 25%;
+    }

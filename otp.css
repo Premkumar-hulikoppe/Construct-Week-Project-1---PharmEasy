@@ -1,0 +1,14 @@
+#container{
+    width: 30%;
+    height: 150px;
+    padding: 15px;
+    border: 1px solid grey;
+    font-family: sans-serif;
+    border-radius: 6px;
+    margin: 25px auto;
+}
+#container > input{
+    height: 25px;
+    border-radius: 6px;
+    border:1px solid grey;
+}
