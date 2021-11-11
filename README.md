@@ -11,4 +11,4 @@ This is my first Construct Week Project at Masai School's Full Stack Web Develop
 ### Some Sample Images of Project
 ---
 
-<img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">
+
