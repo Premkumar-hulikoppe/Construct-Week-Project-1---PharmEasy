@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Options</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="data:image/jpeg;base64,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" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="checkout.css">
+</head>
+<body>
+    <header>
+        <div class="headerbox">
+            <div class="headerItems">
+                <img src="https://assets.pharmeasy.in/web-assets/dist/fca22bc9.png" alt="">
+            </div>
+            <div class="headerItems">
+                <img src="https://cdn-icons-png.flaticon.com/128/4820/4820932.png" alt="">
+                <p>100% Secure Payments</p>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <div class="containerItems">
+            <h2>Offers</h2>
+
+            <div class="paymentOptions">
+                <div class="inners">
+                    <img src="https://cdn.pharmeasy.in/payments/wallet_icons/mobikwik.png" alt="">
+                </div>
+                <div class="inners">
+                    <div class="first">
+                        <h4>Mobikwik</h4>
+                        <input type="radio">
+                    </div>
+
+                    <div class="second">
+                        Get cashback upto Rs.500 on a minimum transaction of Rs.5000 via mobikwik. Use code MBK500 on Mobikwik.
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="paymentOptions">
+
+                <div class="inners">
+                    <img src="https://cdn.pharmeasy.in/payments/wallet_icons/paytm.png" alt="">
+                </div>
+                <div class="inners">
+                    <div class="first">
+                        <h4>Paytm</h4>
+                        <input type="radio">
+                    </div>
+
+                    <div class="second">
+                        Get cashback upto Rs.500 on a minimum transaction of Rs.999 via Paytm wallet. Get cashback upto Rs.500 on a minimum transaction of Rs.999 via Paytm wallet.
+                        
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="paymentOptions">
+
+                <div class="inners">
+                    <img src="https://cdn.pharmeasy.in/payments/wallet_icons/phonepe.png" alt="">
+                </div>
+                <div class="inners">
+                    <div class="first">
+                        <h4>PhonePe</h4>
+                        <input type="radio">
+                    </div>
+
+                    <div class="second">
+                        Get cashback upto Rs.499 on a minimum transaction of Rs.999 via PhonePe.
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="paymentOptions last">
+
+                <div class="inners">
+                    <img src="https://cdn.pharmeasy.in/payments/amazonpay_new.png" alt="">
+                </div>
+                <div id="none" class="inners in">
+                    <div class="first">
+                        <h4>Amazon Pay</h4>
+                        <input type="radio">
+                    </div>
+
+                    <div class="second">
+                        Get cashback upto Rs.100 on a minimum transaction of Rs.999 via Amazon Pay.
+                    </div>
+                </div>
+
+            </div>
+
+            <h2>Other Options</h2>
+           
+            <div class="bottom1">
+                <div class="flex1">
+                    <img src="https://cdn.pharmeasy.in/payments/upi.png" alt="">
+                </div>
+
+                <div class="flex2">
+                    <div class="toppers">
+                        <div class="contents">
+                            <h2>UPI</h2>
+                        </div>
+                        <div class="contents">
+                            <img src="https://cdn-icons.flaticon.com/png/128/2952/premium/2952047.png?token=exp=1636192539~hmac=9d40c6ac56cba7399f7589924cb2c331" alt="">
+                        </div>
+                    </div>
+
+                    <div class="bottoms">
+                        <div class="pics">
+                            <img src="https://consumer-app-images.pharmeasy.in/payment-icons/gpay.png" alt="">
+                        </div>
+                        <div class="pics">
+                            <img src="https://consumer-app-images.pharmeasy.in/payment-icons/bhim.png" alt="">
+                        </div>
+                        <div class="pics">
+                            <img src="https://consumer-app-images.pharmeasy.in/payment-icons/paytmUpi.png" alt="">
+                        </div>
+                        <div class="pics">
+                            <img src="https://consumer-app-images.pharmeasy.in/payment-icons/phonepeUpi.png" alt="">
+                        </div>
+                        <div class="pics">
+                            <p>and more</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bottom1">
+            
+                <div class="flex1">
+                    <img src="https://cdn.pharmeasy.in/payments/wallet.png" alt="">
+                </div>
+
+                <div class="flex2">
+                    <div class="toppers">
+                        <div class="contents">
+                            <h2>Wallets</h2>
+                        </div>
+                        <div class="contents">
+                            <img src="https://cdn-icons.flaticon.com/png/128/2952/premium/2952047.png?token=exp=1636192539~hmac=9d40c6ac56cba7399f7589924cb2c331" alt="">
+                        </div>
+                    </div>
+
+                    <div class="bottoms">
+                        <div class="pics">
+                            <img src="https://consumer-app-images.pharmeasy.in/payment-icons/paytm.png" alt="">
+                        </div>
+                        <div class="pics">
+                            <img src="https://consumer-app-images.pharmeasy.in/payment-icons/freecharge-wallet.png" alt="">
+                        </div>
+                        <div class="pics">
+                            <img src="https://consumer-app-images.pharmeasy.in/payment-icons/phonepeWallet.png" alt="">
+                        </div>
+                        <div class="pics">
+                            <!-- <img src="https://consumer-app-images.pharmeasy.in/payment-icons/phonepeUpi.png" alt=""> -->
+                        </div>
+                        <div class="pics">
+                            <!-- <p>and more</p> -->
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="third" class="bottom1">
+            
+                <div class="flex1">
+                    <img src="https://cdn.pharmeasy.in/payments/card.png" alt="">
+                </div>
+
+                <div class="flex2">
+                    <div class="toppers">
+                        <div class="contents">
+                            <h2>Credit/Debit Card</h2>
+                        </div>
+                        <div class="contents">
+                            <img src="https://cdn-icons.flaticon.com/png/128/2952/premium/2952047.png?token=exp=1636192539~hmac=9d40c6ac56cba7399f7589924cb2c331" alt="">
+                        </div>
+                    </div>
+
+                    <div class="mids">
+                        Get an additional Rs.150 instant discount on a transaction of Rs.1500 or above on ICICI Debit and Credit cards.
+                    </div>
+
+                    <div class="bottoms">
+                        <div class="pics">
+                            <img src="https://consumer-app-images.pharmeasy.in/payment-icons/visa.png" alt="">
+                        </div>
+                        <div class="pics">
+                            <img src="https://consumer-app-images.pharmeasy.in/payment-icons/mastercard-logo.png" alt="">
+                        </div>
+                        <div class="pics">
+                            <img src="https://consumer-app-images.pharmeasy.in/payment-icons/rupay.png" alt="">
+                        </div>
+                        <div class="pics">
+                            <img src="https://consumer-app-images.pharmeasy.in/payment-icons/maestro-logo.png" alt="">
+                        </div>
+                        <div class="pics">
+                            <img src="https://consumer-app-images.pharmeasy.in/payment-icons/dinerCard.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="lowers">
+                <div class="lowerItem1">
+                    <img src="https://cdn.pharmeasy.in/payments/netbanking.png" alt="">
+                </div>
+
+                <div class="lowerItem2">
+                    <div class="subs1">
+                        <h2>Net banking</h2>
+                        <p>We support over 100 banks</p>
+                    </div>
+                <div class="subs2">
+                    <img src="https://cdn-icons.flaticon.com/png/128/2952/premium/2952047.png?token=exp=1636192539~hmac=9d40c6ac56cba7399f7589924cb2c331" alt="">
+                </div>
+                </div>
+            </div>
+
+            <div class="lowers">
+                <div class="lowerItem1">
+                    <img src="https://consumer-app-images.pharmeasy.in/payment-icons/cod.png" alt="">
+                </div>
+
+                <div class="lowerItem2">
+                    <div class="subs1">
+                        <h2>Pay on Delivery</h2>
+                        <p>Pay via Cash/UPI at the time of delivery.</p>
+                    </div>
+                <div class="subs2">
+                    <input type="radio">
+                </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="containerItems">
+
+            <div class="box1">
+                <div class="box1Item1">
+                    <img src="https://assets.pharmeasy.in/web-assets/dist/9abb1d25.svg" alt="">
+                </div>
+                <div class="box1Item2">
+                    <h4>PharmEasy Wallet</h4>
+                    <input type="checkbox">
+                    <p>T&C Apply</p>
+                </div>
+            </div>
+            
+            <h2>Price Breakdown</h2>
+
+            <div class="box2">
+                <div class="box2Items">
+                    Cart Value
+                </div>
+                <div class="box2Items">
+                    <span id="oriPrice">--</span>
+                    &nbsp;
+                    &nbsp;
+                    <span id="curPrice">--</span>
+                </div>
+            </div>
+
+            <div class="box2">
+                <div class="box2Items">
+                    Delivery Charge
+                </div>
+                <div class="box2Items">
+                    <span id="DelioriPrice">--</span>
+                    &nbsp;
+                    &nbsp;
+                    <span id="DelicurPrice">--</span>
+                </div>
+            </div>
+
+            <div class="box3">
+                <div class="box3Items">Amount to be paid</div>
+                <div id="payment" class="box3Items"></div>
+            </div>
+
+            <div class="box4">
+                <div class="box4Items">
+                    <img src="https://cdn-icons.flaticon.com/png/128/2769/premium/2769454.png?token=exp=1636204929~hmac=45633e9e637886afdcf3761399c1eaba" alt="">
+                </div>
+                <div class="box4Items">Total Savings of <span id="savings">--</span>
+                on this order</div>
+                <div class="box4Items">
+                    <img src="https://cdn-icons.flaticon.com/png/128/2722/premium/2722987.png?token=exp=1636205084~hmac=e5311435497922dccf91ebde1e5a628d" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<script src="checkout.js"></script>
