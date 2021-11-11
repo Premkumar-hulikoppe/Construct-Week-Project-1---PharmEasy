@@ -8,7 +8,20 @@ This is my first Construct Week Project at Masai School's Full Stack Web Develop
   So it was a great experience to me while building this task i have learnt so many new concepts and how to apply tech-tools whatever i had learnt in my current unit. The project covers basic front end designs up to a certain level and showcasing basic functionality like signup, signin, product viewing, adding it to cart then finally placing order by filling address details and making successful payment. I greatly thankful to my instructor *Chandrasekhar* and also instructor associate *Kamal* for guiding us which helpled me to feel confident and work upon the project and to complete within the specified time period.
  
  
-### Some Sample Images of Project
+### Some Sample Images of Clone site
 ---
+
+
+ ![](.vscode/IMAGES/Screenshot%202021-11-11%20195408.png)
+ 
+ ---
+ ![](.vscode/IMAGES/Screenshot%202021-11-11%20195601.png)
+ 
+ ---
+ ![](.vscode/IMAGES/Screenshot%202021-11-11%20195635.png)
+ 
+ ---
+ ![](.vscode/IMAGES/Screenshot%202021-11-11%20195703.png)
+ ---
 
 
