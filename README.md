@@ -11,6 +11,7 @@ This is my first Construct Week Project at Masai School's Full Stack Web Develop
 ### Some Sample Images of Clone site
 ---
 
+[Link For Blog Post On Medium](https://medium.com/@premuhulikoppe/my-first-construct-week-project-1331359a7c7f)
 
  ![](.vscode/IMAGES/Screenshot%202021-11-11%20195408.png)
  
