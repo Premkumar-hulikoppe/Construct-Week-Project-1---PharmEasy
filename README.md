@@ -26,6 +26,17 @@ This is my first Construct Week Solo Project at Masai School's Full Stack Web De
 | 3 | Dynamic cart page |
 | 4 | Add address details and Payment feature |
 
+**Steps for site functionality**
+  --
+  
+  | Serial No            | Step                                                              |
+| ----------------- | ------------------------------------------------------------------ |
+| 1 | In home page click on any product, shown at "Recommended For You", it will redirect you to the product display page|
+| 2| In product display page click on "Add to cart" button, then itme will added to cart |
+| 3 | Now click on, "Cart" present right corner, it will redirect to cart page|
+| 4 | To remove any item click on delete icon so it will be removed from the cart, then click on "Add delivery address" and fill address details at redirected page and save the same|
+| 5 | Now click "Proceed to pay" button for payment and click "debit/credit cart" option and proceed the same|
+
   
   **Link For Blog**
   --
